@@ -1,7 +1,0 @@
-﻿Version 6.14.9539.17120
-December 23rd 2017
-
-Import-Module AU # Automatic Updates Powershell Module has Get-Remotechecksum to verify from Comodo's website the checksum this will change when overwritten by Comodo with new RemoteControl
-Get-RemoteChecksum -Algorithm sha256 -Url 'https://dl.cmdm.comodo.com/download/ComodoRemoteControl.exe'
-0bfbccf44c609ce85b3b1b77115503101fbab8152ffe5a3789f73fb3047b8522
-
